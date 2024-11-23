@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #ffe4e1;
+            background-image: radial-gradient(circle, #ffb6c1 1px, transparent 1px), 
+                              radial-gradient(circle, #ffb6c1 1px, transparent 1px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+            font-family: 'Georgia', serif;
+            text-align: center;
+        }
+        .papiro {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            background: #f5deb3;
+            border: 3px solid #d2b48c;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        .papiro:before, .papiro:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 15px;
+            background: #d2b48c;
+            border-radius: 50%;
+            left: 0;
+        }
+        .papiro:before {
+            top: -15px;
+        }
+        .papiro:after {
+            bottom: -15px;
+        }
+        .papiro h1 {
+            font-size: 1.8em;
+            color: #8b4513;
+            margin-bottom: 10px;
+        }
+        .papiro p {
+            font-size: 1.2em;
+            color: #5a3e1b;
+            line-height: 1.5;
+        }
+        .image-container {
+            width: 90%;
+            max-width: 400px;
+            margin-top: 10px;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <!-- Reproductor de música -->
+    <audio autoplay loop hidden>
+        <source src="foto/musica.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div class="papiro">
+        <h1>Mi vida ❤️</h1>
+        <p>
+            Desde el primer momento en que te vi, supe que eras todo lo que he necesitado ❤. 
+            Tus ojitos son el reflejo de mi felicidad y tu sonrisa, el motor de mis días ❤. 
+            Te amo más de lo que las palabras pueden expresar, y cada día a tu lado es un regalo ❤.
+            Se vienen más cositas ❤
+        </p>
+        <p>Con mucho amor,</p>
+        <p><strong>Tu esposo loco ❤</strong> 💌</p>
+    </div>
+    <div class="image-container">
+        <img src="esposa.jpg" alt="Tu imagen especial">
+    </div>
+</body>
+</html>
